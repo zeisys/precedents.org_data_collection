@@ -144,15 +144,25 @@ Specifies whether the document is an "Order" or a "Judgment."
 ## 2V (Column V) Legal Principle
 
 **Definition:**  
-A brief summary of the main legal principle derived from the case.
+A brief legal principle derived from the case. A legal principle is a short rule or idea that judges use to decide cases. It comes from past court decisions and helps everyone understand what is fair and unfair under the law. Think of it like a rule in a game—if one person breaks it, the referee (the judge) uses the rule to make a fair decision.
 
 **Examples of Allowed Entries:**
-- `"Fraudulent misrepresentation voids contracts."`
-- `"A contract obtained through coercion is void."`
+- `Fraudulent misrepresentation voids contracts`
+- `A contract obtained through coercion is void`
+- `Stealing is a crime, even if you return the item later`
+- `A person is innocent until proven guilty`
+- `Freedom of speech does not protect hate speech`
+- `Mere recovery of a weapon does not prove guilt`
+- `gift deed must be registered to be valid`
+- `Divorce by mutual consent requires a cooling-off period`
+- `Electronic evidence is admissible if forensic certified`
+- `Pay must be equal for a man and woman doing the same job`
+- `Silence is misrepresentation if there is a duty to disclose`
 
 **Examples of Not Allowed Entries:**
-- `"The case was about fraud."` (Too vague)
-- `"General legal discussion."` (Not specific)
+- `The case was about fraud` (Too vague)
+- `General legal discussion` (Not specific)
+- `In cases where an individual has entered into a contractual agreement, whether written or verbal, and subsequently claims that they were under duress at the time of signing, the court must carefully examine all surrounding circumstances, including but not limited to the financial, emotional, and physical state of the individual` (Too long - can be shortened to "A contract signed under duress is void")
 
 ---
 
