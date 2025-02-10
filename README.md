@@ -1,13 +1,27 @@
-Research judgments or verdicts from the Supreme Court of India. You will be given a specific year from this website: https://digiscr.sci.gov.in/
+# 1 Data Gathering Work
 
-Go through each judgment, and click on the name of the judgment.  including all the metadata, and format it as specified in the columns in a spreadsheet.
+## 1.1 Objective
 
-A. Indian Laws Referenced: List laws/sections from the judgment, separated by semicolons. Use format: PART (number), law name, year.
+Research judgments or verdicts from the Supreme Court of India for legal precedents and collect the data into a spreadsheet. You will be given a specific year and a volume from this website: https://digiscr.sci.gov.in/. Please do not work on a different year or a different volume, as other researchers would be working on those and your work if duplicate is not useful.
+
+## 1.2 Task
+
+Browse through each judgment/order, and identify legal precedents. Remember, we are not looking for data regarding the judgment/order, but only for the precedents in references. 
+
+## 1.3 Deliverable
+
+Look for the following data elements, for each precedent, and format it as the columns of a spreadsheet. Deliver the spreadsheet as an XLSX file or a CSV file.
+
+# 2 Data Fields 
+
+# 2.A Indian Laws Referenced
+
+List laws/sections from the precedented, separated by semicolons. Use format: The, law name, year.
 
 Examples:
-Order VII, Rule 14, The Code of Civil Procedure, 1908
-§11, The Indian Trusts Act, 1882
-Article 14, The Constitution of India
+- The Code of Civil Procedure, 1908
+- The Indian Trusts Act, 1882
+- The Constitution of India. 1950
 
 B. What is the most critical question that this judgment answers? It should be stated generically, as a general question someone might search for online. Avoid using names; instead, refer to individuals as "litigants."
 
