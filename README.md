@@ -14,6 +14,216 @@ Look for the following data elements, for each precedent, and format it as the c
 
 # 2 Data Fields
 
+## 2A (Column A) DigiSC Page URL
+
+**Definition:**  
+The official Supreme Court judgment page URL from DigiSC. Must be a full and valid URL linking directly to the judgment page.
+
+**Examples of Allowed Entries:**
+- `https://digiscr.sci.gov.in/view_judgment?id=MzEy`
+- `https://digiscr.sci.gov.in/view_judgment?id=MTI3`
+
+**Examples of Not Allowed Entries:**
+- `"SC Judgment 2004 link"` (Missing URL)
+- `"www.supremecourt.in/judgment"` (Incorrect format, must be from DigiSC)
+
+---
+
+## 2B (Column B) DigiSC PDF Link
+
+**Definition:**  
+Direct link to download the judgment PDF from DigiSC. Must be a complete and accessible URL.
+
+**Examples of Allowed Entries:**
+- `https://digiscr.sci.gov.in/admin/judgement_file/xyz.pdf`
+- `https://digiscr.sci.gov.in/admin/judgement_file/abc.pdf`
+
+**Examples of Not Allowed Entries:**
+- `"Download PDF here"` (No direct URL)
+- `"supremecourt.in/pdf"` (Incorrect domain, must be from DigiSC)
+
+---
+
+## 2C (Column C) SCR Citation
+
+**Definition:**  
+The Supreme Court Reports (SCR) citation must follow the format **[YEAR] VOLUME_NUMBER S.C.R. PAGE_NUMBER**.
+
+**Examples of Allowed Entries:**
+- `[2004] 3 S.C.R. 56`
+- `[1998] 2 S.C.R. 101`
+
+**Examples of Not Allowed Entries:**
+- `"Supreme Court 2004 Ruling"` (Not in correct format)
+- `"SCR Citation: Vol 3, 2004"` (Does not match required format)
+
+---
+
+## 2D (Column D) Neutral Citation
+
+**Definition:**  
+The neutral citation (INSC) must follow the format **[YEAR] INSC NUMBER**.
+
+**Examples of Allowed Entries:**
+- `2004 INSC 181`
+- `1993 INSC 344`
+
+**Examples of Not Allowed Entries:**
+- `"2004 SC Citation"` (Incorrect format)
+- `"INSC Case 344 of 1993"` (Not in the correct format)
+
+---
+
+## 2E (Column E) Date of Judgment
+
+**Definition:**  
+The date when the judgment was issued. It must be in **ISO 8601 format (YYYY-MM-DD)**.
+
+**Examples of Allowed Entries:**
+- `2004-03-17`
+- `1993-10-27`
+
+**Examples of Not Allowed Entries:**
+- `"March 17, 2004"` (Incorrect format)
+- `"17-03-2004"` (Not ISO format)
+
+---
+
+## 2F (Column F) Case Type
+
+**Definition:**  
+The category of the case. Use standard legal case types recognized in the Indian legal system.
+
+**Examples of Allowed Entries:**
+- `Civil Appeal`
+- `Writ Petition`
+- `Special Leave Petition`
+
+**Examples of Not Allowed Entries:**
+- `"Appeal"` (Too vague)
+- `"Case Type: Civil"` (Incorrect format)
+
+---
+
+## 2G (Column G) Case Number
+
+**Definition:**  
+The unique identifier for the case. Must follow the format **X/YYYY**.
+
+**Examples of Allowed Entries:**
+- `1650/2004`
+- `994/1972`
+
+**Examples of Not Allowed Entries:**
+- `"Case 1650 2004"` (Incorrect format)
+- `"1650-2004"` (Wrong separator)
+
+---
+
+## 2H (Column H) Disposal Nature
+
+**Definition:**  
+The final outcome of the case, indicating whether the appeal was allowed, dismissed, or otherwise disposed of.
+
+**Examples of Allowed Entries:**
+- `Appeals Allowed`
+- `Appeals Dismissed`
+
+**Examples of Not Allowed Entries:**
+- `"Judgment Issued"` (Not specific enough)
+- `"Case Completed"` (Not a legal term)
+
+---
+
+## 2I (Column I) Order/Judgment
+
+**Definition:**  
+Specifies whether the document is an "Order" or a "Judgment."
+
+**Examples of Allowed Entries:**
+- `Judgment`
+- `Order`
+
+**Examples of Not Allowed Entries:**
+- `"Verdict"` (Not a standard legal term)
+
+---
+
+## 2V (Column V) Legal Principle
+
+**Definition:**  
+A brief summary of the main legal principle derived from the case.
+
+**Examples of Allowed Entries:**
+- `"Fraudulent misrepresentation voids contracts."`
+- `"A contract obtained through coercion is void."`
+
+**Examples of Not Allowed Entries:**
+- `"The case was about fraud."` (Too vague)
+- `"General legal discussion."` (Not specific)
+
+---
+
+## 2W (Column W) Q1 (Most Important Legal Question)
+
+**Definition:**  
+The most important legal question the judgment answers. It should be phrased in a way that someone might search for it online.
+
+**Examples of Allowed Entries:**
+- `"What are the consequences of suppressing material facts in court?"`
+- `"Can a fraudulent misrepresentation void a contract?"`
+
+**Examples of Not Allowed Entries:**
+- `"Did Mr. X suppress evidence?"` (Should not include names)
+- `"Was fraud committed?"` (Too vague)
+
+---
+
+## 2X (Column X) Q1 Location
+
+**Definition:**  
+The page and paragraph number where Q1 is discussed in the judgment.
+
+**Examples of Allowed Entries:**
+- `Page 672, Paragraph 16`
+- `Page 108, Paragraph 4`
+
+**Examples of Not Allowed Entries:**
+- `"In the middle of the document"` (Not specific enough)
+
+---
+
+## 2AC (Column AC) Primary Legal Question
+
+**Definition:**  
+The most significant legal issue addressed in the judgment. It should be framed as a legal principle.
+
+**Examples of Allowed Entries:**
+- `"What are the consequences of suppressing material facts?"`
+- `"What is the effect of fraud on court proceedings?"`
+
+**Examples of Not Allowed Entries:**
+- `"Is the plaintiff guilty?"` (Should be legal, not factual)
+
+---
+
+## 2AE (Column AE) Tertiary Legal Question
+
+**Definition:**  
+The third key legal issue addressed by the case.
+
+**Examples of Allowed Entries:**
+- `"Is a judgment obtained by fraud considered a nullity?"`
+- `"Can trustees delegate their duties and powers?"`
+
+**Examples of Not Allowed Entries:**
+- `"Did the judge favor the respondent?"` (Not a legal issue)
+
+
+
+
+
+
 ## 2x (Column X) DigiSCR Page URL
 
 The URL of the webpage. You may not be able to directly get this URL. You will have to click through a judgment that cites this precedent. Usually precedents are listed in a section called **Case Law Cited** For example, look below:
