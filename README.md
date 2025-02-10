@@ -12,37 +12,35 @@ Browse through each judgment/order, and identify legal precedents. Remember, we 
 
 Look for the following data elements, for each precedent, and format it as the columns of a spreadsheet. Deliver the spreadsheet as an XLSX file or a CSV file.
 
-# 2 Data Fields
+---
+
+# 2 DATA NEEDED
 
 ## 2A (Column A) DigiSC Page URL
 
 **Definition:**  
-The official Supreme Court judgment page URL from DigiSC. Must be a full and valid URL linking directly to the judgment page.
+The official Supreme Court judgment page URL on DigiSC. Must be a full and valid URL linking directly to the judgment page. You may not be able to directly get this URL. You will have to click through a judgment that cites this precedent. Usually precedents are listed in a section called **Case Law Cited**
 
 **Examples of Allowed Entries:**
-- `https://digiscr.sci.gov.in/view_judgment?id=MzEy`
-- `https://digiscr.sci.gov.in/view_judgment?id=MTI3`
+- `https://digiscr.sci.gov.in/view_judgment?id=MzcyMw==`
+- `https://digiscr.sci.gov.in/view_judgment?id=MTA0MDg=`
 
 **Examples of Not Allowed Entries:**
 - `"SC Judgment 2004 link"` (Missing URL)
 - `"www.supremecourt.in/judgment"` (Incorrect format, must be from DigiSC)
 
----
-
 ## 2B (Column B) DigiSC PDF Link
 
 **Definition:**  
-Direct link to download the judgment PDF from DigiSC. Must be a complete and accessible URL.
+Direct link to download the judgment PDF from DigiSC. Must be a complete and accessible URL. 
 
 **Examples of Allowed Entries:**
-- `https://digiscr.sci.gov.in/admin/judgement_file/xyz.pdf`
-- `https://digiscr.sci.gov.in/admin/judgement_file/abc.pdf`
+- `https://digiscr.sci.gov.in/admin/judgement_file/judgement_pdf/2004/volume%203/Part%20I/2004_3_56-67%20%20%20_1703307014.pdf`
+- `https://digiscr.sci.gov.in/admin/judgement_file/judgement_pdf/2003/Supp.%20(4)/Part%20I/Ram%20Chandra%20Singh%20_%20Savitri%20Devi%20And%20Ors._1701324244.pdf`
 
 **Examples of Not Allowed Entries:**
 - `"Download PDF here"` (No direct URL)
 - `"supremecourt.in/pdf"` (Incorrect domain, must be from DigiSC)
-
----
 
 ## 2C (Column C) SCR Citation
 
@@ -57,8 +55,6 @@ The Supreme Court Reports (SCR) citation must follow the format **[YEAR] VOLUME_
 - `"Supreme Court 2004 Ruling"` (Not in correct format)
 - `"SCR Citation: Vol 3, 2004"` (Does not match required format)
 
----
-
 ## 2D (Column D) Neutral Citation
 
 **Definition:**  
@@ -72,38 +68,34 @@ The neutral citation (INSC) must follow the format **[YEAR] INSC NUMBER**.
 - `"2004 SC Citation"` (Incorrect format)
 - `"INSC Case 344 of 1993"` (Not in the correct format)
 
----
-
 ## 2E (Column E) Date of Judgment
 
 **Definition:**  
-The date when the judgment was issued. It must be in **ISO 8601 format (YYYY-MM-DD)**.
+The date when the judgment was issued. It must be in **ISO 8601 format (YYYY-MM-DD)**, plus the letter T at the end. Do not miss this T as the excel will confuse the value.
 
 **Examples of Allowed Entries:**
-- `2004-03-17`
-- `1993-10-27`
+- `2004-03-17T`
+- `1993-10-27T`
 
 **Examples of Not Allowed Entries:**
 - `"March 17, 2004"` (Incorrect format)
 - `"17-03-2004"` (Not ISO format)
-
----
+- `1993-10-27` (No T at the end)
 
 ## 2F (Column F) Case Type
 
 **Definition:**  
-The category of the case. Use standard legal case types recognized in the Indian legal system.
+The category of the case. Use standard legal case types recognized in the Indian legal system. Please avoid abbreviations or shortening phrases.
 
 **Examples of Allowed Entries:**
 - `Civil Appeal`
 - `Writ Petition`
 - `Special Leave Petition`
+- `Special Leave Petition (civil)`
 
 **Examples of Not Allowed Entries:**
 - `"Appeal"` (Too vague)
 - `"Case Type: Civil"` (Incorrect format)
-
----
 
 ## 2G (Column G) Case Number
 
