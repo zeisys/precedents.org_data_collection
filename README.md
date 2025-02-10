@@ -12,9 +12,13 @@ Browse through each judgment/order, and identify legal precedents. Remember, we 
 
 Look for the following data elements, for each precedent, and format it as the columns of a spreadsheet. Deliver the spreadsheet as an XLSX file or a CSV file.
 
-# 2 Data Fields 
+# 2 Data Fields
 
-## 2.A Indian Laws Referenced
+## 2x (Column X) DigiSCR Page URL
+
+The URL of the webpage. You may not be able to directly get this URL. You will have to click through the 
+
+## 2x (Column X) Indian Laws Referenced
 
 List laws/sections that the precedent references. Use format: The, law name, year.
 
@@ -24,6 +28,8 @@ Examples:
 - *The Code of Civil Procedure, 1908*
 - *The Indian Trusts Act, 1882*
 - *The Constitution of India, 1950*
+
+## 2x (Column X) Critical Question
 
 B. What is the most critical question that this judgment answers? It should be stated generically, as a general question someone might search for online. Avoid using names; instead, refer to individuals as "litigants."
 
