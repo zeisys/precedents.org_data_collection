@@ -16,12 +16,14 @@ Look for the following data elements, for each precedent, and format it as the c
 
 ## 2.A Indian Laws Referenced
 
-List laws/sections from the precedented, separated by semicolons. Use format: The, law name, year.
+List laws/sections that the precedent references. Use format: The, law name, year.
+
+If the precedent references more than one law, list *all* the laws in this column, separated by *semicolons*.
 
 Examples:
-- The Code of Civil Procedure, 1908
-- The Indian Trusts Act, 1882
-- The Constitution of India. 1950
+- *The Code of Civil Procedure, 1908*
+- *The Indian Trusts Act, 1882*
+- *The Constitution of India, 1950*
 
 B. What is the most critical question that this judgment answers? It should be stated generically, as a general question someone might search for online. Avoid using names; instead, refer to individuals as "litigants."
 
