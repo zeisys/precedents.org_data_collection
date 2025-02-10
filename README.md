@@ -16,7 +16,11 @@ Look for the following data elements, for each precedent, and format it as the c
 
 ## 2x (Column X) DigiSCR Page URL
 
-The URL of the webpage. You may not be able to directly get this URL. You will have to click through the 
+The URL of the webpage. You may not be able to directly get this URL. You will have to click through a judgment that cites this precedent. Usually precedents are listed in a section called **Case Law Cited** For example, look below:
+
+
+
+
 
 ## 2x (Column X) Indian Laws Referenced
 
