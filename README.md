@@ -1,6 +1,6 @@
 Research judgments or verdicts from the Supreme Court of India. You will be given a specific year from this website: https://digiscr.sci.gov.in/
 
-Go through each judgment, including all the metadata, and format it as specified in the columns in a spreadsheet.
+Go through each judgment, and click on the name of the judgment.  including all the metadata, and format it as specified in the columns in a spreadsheet.
 
 A. Indian Laws Referenced: List laws/sections from the judgment, separated by semicolons. Use format: PART (number), law name, year.
 
@@ -29,7 +29,7 @@ J. What Type of Case Is It? – For example, Special Leave Petition, Civil Appea
 
 K. What is the case number? Format must be X/YYYY. Do not indicate the type of case (abbreviations or shortened phrases or alphabets) in this field.
 
-L. What is the date of the judgment or verdict? Use ISO 8601 standard for formatting the date as YYYY-MM-DD.
+L. What is the date of the judgment or verdict? Use ISO 8601 standard for formatting the date as YYYY-MM-DD, plus capital letter T. So a date would look like 2024-01-02T.
 
 M. Who are the judge(s) involved in the Bench who gave the judgment, listed and separated by semicolons? First name, middle name, and last name? If only initials are present, do not include periods between the letters.
 
@@ -37,9 +37,9 @@ N. Who is the author of the judgment? The name(s) of the judge(s). first name, m
 
 O. Who was the judgment in favor of? The appellant, petitioner, plaintiff, respondent, defendant, or "other party"?
 
-P. Link to Judgment on Indian Kanoon (Provide the full URL starting with "https://," no hyperlink text.)
+P. Link to Judgment on digital supreme court report. To get the link, click on the case name, then click on the FULL TEXT button on the right-handside of the screen. Once the PDF loads, just get the URL in the browser address bar. The URL will appear in this format https://digiscr.sci.gov.in/admin/judgement_file/judgement_pdf/2004/volume%203/Part%20I/2004_3_56-67%20%20%20_1703307014.pdf
 
-Q. Link to Judgment on Casemine (Provide the full URL starting with "https://," no hyperlink text.)
+Q. Link to Judgment on IndianKanoon.org (Provide the full URL starting with "https://," no hyperlink text.)
 
 R. The citation number from the Supreme Court Cases (SCC) should be standardized as follows: (YEAR) VOLUME_NUMBER SCC PAGE_NUMBER. It is essential to adhere strictly to this format; no other formats may be used. You may need to conduct thorough research online to obtain this information.
 
