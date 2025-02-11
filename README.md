@@ -244,6 +244,7 @@ Full name of the respondent (second party). If only initials are present, remove
 **Examples of Not Allowed Entries:**
 - `"State of TN"` (Use full name)
 - `"Company XYZ & Ors."` (Must replace "& Ors." with "and others")
+- `"Union of India & Anr."` (Use "and another" instead of "& Anr.")
 
 ---
 
