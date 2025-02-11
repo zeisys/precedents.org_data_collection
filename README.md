@@ -349,17 +349,16 @@ The Judgment Today (JT) citation must follow the format **YEAR (VOLUME) JT PAGE_
 ## 2W (Column W) - SCALE Citation Number
 
 **Definition:**  
-The Supreme Court Alamanac (SCALE) citation must follow the format **YEAR (VOLUME) JT PAGE_NUMBER**. Please note that this field may be impossible to find as SCC may not have published the specific case. This field is not compulsory as long as you have the SCR Citation and Neutral Citation numbers. If it is available, make sure to get it. If not, leave this cell blank.
+The Supreme Court Alamanac (SCALE) citation must follow the format **YEAR (VOLUME) SCALE PAGE_NUMBER**. Please note that this field may be impossible to find as SCC may not have published the specific case. This field is not compulsory as long as you have the SCR Citation and Neutral Citation numbers. If it is available, make sure to get it. If not, leave this cell blank.
 
 **Examples of Allowed Entries:**
-- 2005 (11) JT 439
-- 2004 (2) Suppl. JT 601
+- 2005 (11) SCALE 500
+- 2004 (20) SCALE 1004
 
 **Examples of Not Allowed Entries:**
-- `Judment Times 2004 Ruling` (Not in correct format)
-- `JT 11 2005-439"` (Does not match required format)
-- `1998 JT 11-99` (Do not match required format)
-
+- `SCALE 2004-11-555` (Does not match required format)
+- `SC Alamanac 11 2005-439"` (Does not match required format)
+- `1998 SCA 11-99` (Does not match required format)
 
 ## 2U (Column U) Other Citation Numbers
 
@@ -374,14 +373,12 @@ Citations from **non-standard sources** (not SCC, SCR, INSC, AIR, JT, or SCALE).
 - `"Other citations available"` (Must list exact citation)
 - `"SC Citation"` (Not specific)
 
-
-
-
-
-## 2V (Column V) Legal Principle
+## 2V (Column V) Legal Principle 1
 
 **Definition:**  
-A brief legal principle derived from the case. A legal principle is a short rule or idea that judges use to decide cases. It comes from past court decisions and helps everyone understand what is fair and unfair under the law. Think of it like a rule in a game—if one person breaks it, the referee (the judge) uses the rule to make a fair decision.
+The primary legal principle derived from the case. A legal principle is a short rule or idea that judges use to decide cases. It comes from past court decisions and helps everyone understand what is fair and unfair under the law. Think of it like a rule in a game—if one person breaks it, the referee (the judge) uses the rule to make a fair decision.
+
+Creating this field might be challenging if you do not have a legal background. In that case, you can use an AI tool to help find the legal principles. However, this does not guarantee that the AI will give you the correct answers. By reading through, you must verify that the legal principle fits with existing precedents. Also, be aware that tools like OpenAI's ChatGPT, Google's Deep Mind, Meta's LLaMA, Amazon's Titan/Bedrock, and Microsoft's Copilot are known to provide inaccurate information. Relying only on the tool will ultimately lead to mistakes in your data. The best approach is to use the AI tool to gather data and manually check each field to see if the information is correct before including it in your final work.
 
 **Examples of Allowed Entries:**
 - `Fraudulent misrepresentation voids contracts`
@@ -401,60 +398,52 @@ A brief legal principle derived from the case. A legal principle is a short rule
 - `General legal discussion` (Not specific)
 - `In cases where an individual has entered into a contractual agreement, whether written or verbal, and subsequently claims that they were under duress at the time of signing, the court must carefully examine all surrounding circumstances, including but not limited to the financial, emotional, and physical state of the individual` (Too long - can be shortened to "A contract signed under duress is void")
 
----
-
-## 2W (Column W) Q1 (Most Important Legal Question)
+## 2W (Column W) Legal Principle 2
 
 **Definition:**  
-The most important legal question the judgment answers. It should be phrased in a way that someone might search for it online.
+The secondary legal principle derived from the case. A legal principle is a short rule or idea that judges use to decide cases. It comes from past court decisions and helps everyone understand what is fair and unfair under the law. Think of it like a rule in a game—if one person breaks it, the referee (the judge) uses the rule to make a fair decision.
+
+Creating this field might be challenging if you do not have a legal background. In that case, you can use an AI tool to help find the legal principles. However, this does not guarantee that the AI will give you the correct answers. By reading through, you must verify that the legal principle fits with existing precedents. Also, be aware that tools like OpenAI's ChatGPT, Google's Deep Mind, Meta's LLaMA, Amazon's Titan/Bedrock, and Microsoft's Copilot are known to provide inaccurate information. Relying only on the tool will ultimately lead to mistakes in your data. The best approach is to use the AI tool to gather data and manually check each field to see if the information is correct before including it in your final work.
 
 **Examples of Allowed Entries:**
-- `"What are the consequences of suppressing material facts in court?"`
-- `"Can a fraudulent misrepresentation void a contract?"`
+- `Fraudulent misrepresentation voids contracts`
+- `A contract obtained through coercion is void`
+- `Stealing is a crime, even if you return the item later`
+- `A person is innocent until proven guilty`
+- `Freedom of speech does not protect hate speech`
+- `Mere recovery of a weapon does not prove guilt`
+- `gift deed must be registered to be valid`
+- `Divorce by mutual consent requires a cooling-off period`
+- `Electronic evidence is admissible if forensic certified`
+- `Pay must be equal for a man and woman doing the same job`
+- `Silence is misrepresentation if there is a duty to disclose`
 
 **Examples of Not Allowed Entries:**
-- `"Did Mr. X suppress evidence?"` (Should not include names)
-- `"Was fraud committed?"` (Too vague)
+- `The case was about fraud` (Too vague)
+- `General legal discussion` (Not specific)
+- `In cases where an individual has entered into a contractual agreement, whether written or verbal, and subsequently claims that they were under duress at the time of signing, the court must carefully examine all surrounding circumstances, including but not limited to the financial, emotional, and physical state of the individual` (Too long - can be shortened to "A contract signed under duress is void")
 
----
-
-## 2X (Column X) Q1 Location
+## 2V (Column V) Legal Principle 3
 
 **Definition:**  
-The page and paragraph number where Q1 is discussed in the judgment.
+The third legal principle derived from the case. A legal principle is a short rule or idea that judges use to decide cases. It comes from past court decisions and helps everyone understand what is fair and unfair under the law. Think of it like a rule in a game—if one person breaks it, the referee (the judge) uses the rule to make a fair decision.
+
+Creating this field might be challenging if you do not have a legal background. In that case, you can use an AI tool to help find the legal principles. However, this does not guarantee that the AI will give you the correct answers. By reading through, you must verify that the legal principle fits with existing precedents. Also, be aware that tools like OpenAI's ChatGPT, Google's Deep Mind, Meta's LLaMA, Amazon's Titan/Bedrock, and Microsoft's Copilot are known to provide inaccurate information. Relying only on the tool will ultimately lead to mistakes in your data. The best approach is to use the AI tool to gather data and manually check each field to see if the information is correct before including it in your final work.
 
 **Examples of Allowed Entries:**
-- `Page 672, Paragraph 16`
-- `Page 108, Paragraph 4`
+- `Fraudulent misrepresentation voids contracts`
+- `A contract obtained through coercion is void`
+- `Stealing is a crime, even if you return the item later`
+- `A person is innocent until proven guilty`
+- `Freedom of speech does not protect hate speech`
+- `Mere recovery of a weapon does not prove guilt`
+- `gift deed must be registered to be valid`
+- `Divorce by mutual consent requires a cooling-off period`
+- `Electronic evidence is admissible if forensic certified`
+- `Pay must be equal for a man and woman doing the same job`
+- `Silence is misrepresentation if there is a duty to disclose`
 
 **Examples of Not Allowed Entries:**
-- `"In the middle of the document"` (Not specific enough)
-
----
-
-## 2AC (Column AC) Primary Legal Question
-
-**Definition:**  
-The most significant legal issue addressed in the judgment. It should be framed as a legal principle.
-
-**Examples of Allowed Entries:**
-- `"What are the consequences of suppressing material facts?"`
-- `"What is the effect of fraud on court proceedings?"`
-
-**Examples of Not Allowed Entries:**
-- `"Is the plaintiff guilty?"` (Should be legal, not factual)
-
----
-
-## 2AE (Column AE) Tertiary Legal Question
-
-**Definition:**  
-The third key legal issue addressed by the case.
-
-**Examples of Allowed Entries:**
-- `"Is a judgment obtained by fraud considered a nullity?"`
-- `"Can trustees delegate their duties and powers?"`
-
-**Examples of Not Allowed Entries:**
-- `"Did the judge favor the respondent?"` (Not a legal issue)
-
+- `The case was about fraud` (Too vague)
+- `General legal discussion` (Not specific)
+- `In cases where an individual has entered into a contractual agreement, whether written or verbal, and subsequently claims that they were under duress at the time of signing, the court must carefully examine all surrounding circumstances, including but not limited to the financial, emotional, and physical state of the individual` (Too long - can be shortened to "A contract signed under duress is void")
