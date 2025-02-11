@@ -4,12 +4,13 @@
 
 Research judgments or verdicts from the Supreme Court of India for legal precedents and collect the data into a spreadsheet. You will be given a specific year and a volume from this website: https://digiscr.sci.gov.in/. Please do not work on a different year or a different volume, as other researchers would be working on those and your work if duplicate is not useful.
 
-![digiscr](./digiscr-how-to-get-to-a-case.png)
-
+![How to get to a Judgment or Order](./digiscr-how-to-get-to-a-case.png)
 
 ## 1.2 Task
 
-Browse through each judgment/order, and identify legal precedents. Remember, we are not looking for data regarding the judgment/order, but only for the precedents in references. 
+Browse through each judgment/order, and identify legal precedents. Remember, we are not looking for data regarding the judgment/order, but only for the precedents in references.
+
+![How to get to a Judgment or Order](./digiscr-how-to-get-to-a-precedent.png)
 
 ## 1.3 Deliverable
 
