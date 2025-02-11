@@ -146,6 +146,199 @@ Specifies whether the document is an "Order" or a "Judgment."
 
 **Examples of Not Allowed Entries:**
 - `"Verdict"` (Not a standard legal term)
+- 
+
+## 2J (Column J) Laws Referenced
+
+**Definition:**  
+List all laws and legal sections referenced in the judgment. Use the format: **The Law Name, Year**. If multiple laws are cited, separate them with semicolons.
+
+**Examples of Allowed Entries:**
+- `The Code of Civil Procedure, 1908`
+- `The Indian Trusts Act, 1882`
+- `The Constitution of India; The Indian Evidence Act, 1872`
+
+**Examples of Not Allowed Entries:**
+- `"IPC Sec. 302"` (Abbreviation not allowed)
+- `"Constitution of India"` (Missing article number)
+- `"Various criminal laws applied"` (Too vague)
+
+---
+
+## 2K (Column K) First Party Classification
+
+**Definition:**  
+The role of the first party in the case. This could be **Appellant, Petitioner, Plaintiff**, or Other.
+
+**Examples of Allowed Entries:**
+- `Appellant`
+- `Petitioner`
+- `Plaintiff`
+- `Respondent`
+
+**Examples of Not Allowed Entries:**
+- `"First Party"` (Not specific enough)
+- `"Accused"` (Only applicable in criminal cases)
+
+---
+
+## 2L (Column L) First Party Full Name
+
+**Definition:**  
+Full name of the first party. If only initials are present, remove periods (full stops) between letters, without abbreviations like "& Ors." Replace it with "and others."
+
+**Examples of Allowed Entries:**
+- `Ramesh Kumar Sharma`
+- `T Rajagopal`
+- `State of Maharashtra`
+- `ABC Private Limited`
+
+**Examples of Not Allowed Entries:**
+- `"R.K. Sharma"` (Should not use initials with periods)
+- `"Maharashtra & Ors."` (Use "and others" instead)
+- `XYZ (P) Ltd.` (Abbreviation is not clear if P stands for Public or Private. Do not abbreviate)
+
+---
+
+## 2M (Column M) Second Party Classification
+
+**Definition:**  
+The role of the second party in the case. This could be **Respondent, Defendant, Opponent**, or another litigant classification.
+
+**Examples of Allowed Entries:**
+- `Appellant`
+- `Petitioner`
+- `Plaintiff`
+- `Respondent`
+  
+**Examples of Not Allowed Entries:**
+- `"Second Party"` (Not specific enough)
+- `"Opposing side"` (Not a legal classification)
+
+---
+
+## 2N (Column N) Second Party Full Name
+
+**Definition:**  
+Full name of the second party. If only initials are present, remove periods (full stops) between letters, without abbreviations like "& Ors." Replace it with "and others."
+
+
+**Examples of Allowed Entries:**
+- `Union of India`
+- `State of Tamil Nadu`
+- `Manoj Kumar`
+
+**Examples of Not Allowed Entries:**
+- `"State of TN"` (Use full name)
+- `"Company XYZ & Ors."` (Must replace "& Ors." with "and others")
+
+---
+
+## 2O (Column O) Court Name
+
+**Definition:**  
+The name of the court where the judgment was delivered. Since this dataset only includes Supreme Court cases, always enter **"Supreme Court."**
+
+**Examples of Allowed Entries:**
+- `Supreme Court`
+
+**Examples of Not Allowed Entries:**
+- `"Delhi High Court"` (Wrong court)
+- `"India SC"` (Must be in standard format)
+
+---
+
+## 2P (Column P) Judges on Bench
+
+**Definition:**  
+List of judges involved in the case, separated by semicolons. If initials are present, do not include periods.
+
+**Examples of Allowed Entries:**
+- `Ranjan Gogoi; Dipak Misra`
+- `N.V. Ramana; U.U. Lalit`
+
+**Examples of Not Allowed Entries:**
+- `"Multiple judges"` (Must list names)
+- `"Justice Dipak M."` (Should have full last name)
+
+---
+
+## 2Q (Column Q) Judgment Author
+
+**Definition:**  
+The name(s) of the judge(s) who wrote the judgment.
+
+**Examples of Allowed Entries:**
+- `Dipak Misra`
+- `R.F. Nariman`
+
+**Examples of Not Allowed Entries:**
+- `"Supreme Court"` (Must specify the judge)
+- `"Bench"` (Refers to multiple judges, not the author)
+
+---
+
+## 2R (Column R) Judgment in Favor Of
+
+**Definition:**  
+Indicates which party won the case. It must be either **Appellant, Petitioner, Plaintiff, Respondent, Defendant**, or "Other Party."
+
+**Examples of Allowed Entries:**
+- `Appellant`
+- `Respondent`
+- `Other Party`
+
+**Examples of Not Allowed Entries:**
+- `"Winner"` (Not a legal classification)
+- `"Court Ruling"` (Not specific enough)
+
+---
+
+## 2S (Column S) Indian Kanoon Link
+
+**Definition:**  
+The full URL link to the case judgment on Indian Kanoon.
+
+**Examples of Allowed Entries:**
+- `https://indiankanoon.org/doc/123456/`
+- `https://indiankanoon.org/doc/abcdef/`
+
+**Examples of Not Allowed Entries:**
+- `"Find it on Kanoon"` (Must provide direct URL)
+- `"https://google.com"` (Wrong website)
+
+---
+
+## 2T (Column T) CaseMine Link
+
+**Definition:**  
+The full URL link to the case judgment on CaseMine.
+
+**Examples of Allowed Entries:**
+- `https://www.casemine.com/judgment/in/123456`
+- `https://www.casemine.com/judgment/in/abcdef`
+
+**Examples of Not Allowed Entries:**
+- `"Find on CaseMine"` (Must provide a direct URL)
+- `"casemine.com"` (Needs full case-specific URL)
+
+---
+
+## 2U (Column U) Other Citation Numbers
+
+**Definition:**  
+Citations from **non-standard sources** (not SCC, SCR, INSC, AIR, JT, or SCALE). Use the exact format of the source.
+
+**Examples of Allowed Entries:**
+- `AIR 2004 SC 200`
+- `MANU/SC/1234/2001`
+
+**Examples of Not Allowed Entries:**
+- `"Other citations available"` (Must list exact citation)
+- `"SC Citation"` (Not specific)
+
+
+
 
 
 ## 2V (Column V) Legal Principle
