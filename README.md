@@ -61,11 +61,12 @@ The Supreme Court Reports (SCR) citation must follow the format **[YEAR] VOLUME_
 
 **Examples of Allowed Entries:**
 - `[2004] 3 S.C.R. 56`
-- `[1998] 2 S.C.R. 101`
+- `[2003] Supp. (4) S.C.R. 543`
 
 **Examples of Not Allowed Entries:**
 - `"Supreme Court 2004 Ruling"` (Not in correct format)
 - `"SCR Citation: Vol 3, 2004"` (Does not match required format)
+- `(2003) Supp. 4 S.C.R. 543` (Brackers are used wrongly)
 
 ## 2D (Column D) - Neutral Citation Number
 
@@ -303,6 +304,20 @@ The full URL link to the case judgment on Indian Kanoon.
 - `"https://google.com"` (Wrong website)
 
 ---
+## 2T (Column T) - SCC Citation Number
+
+**Definition:**  
+The Supreme Court Case (SCC) citation must follow the format **(YEAR) VOLUME_NUMBER SCC PAGE_NUMBER**.
+
+**Examples of Allowed Entries:**
+- `(2004) 3 SCC 56`
+- `[1998] 5 SCC 1001`
+
+**Examples of Not Allowed Entries:**
+- `"Supreme Court 2004 Ruling"` (Not in correct format)
+- `"SCR Citation: Vol 3, 2004"` (Does not match required format)
+
+
 
 ## 2U (Column U) Other Citation Numbers
 
