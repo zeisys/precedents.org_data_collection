@@ -360,7 +360,7 @@ The Supreme Court Alamanac (SCALE) citation must follow the format **YEAR (VOLUM
 - `SC Alamanac 11 2005-439"` (Does not match required format)
 - `1998 SCA 11-99` (Does not match required format)
 
-## 2U (Column U) Other Citation Numbers
+## 2X (Column X) Other Citation Numbers
 
 **Definition:**  
 Citations from **non-standard sources** (not SCC, SCR, INSC, AIR, JT, or SCALE). Use the exact format of the source.
@@ -373,7 +373,7 @@ Citations from **non-standard sources** (not SCC, SCR, INSC, AIR, JT, or SCALE).
 - `"Other citations available"` (Must list exact citation)
 - `"SC Citation"` (Not specific)
 
-## 2V (Column V) Legal Principle 1
+## 2Y (Column Y) Legal Principle 1
 
 **Definition:**  
 The primary legal principle derived from the case. A legal principle is a short rule or idea that judges use to decide cases. It comes from past court decisions and helps everyone understand what is fair and unfair under the law. Think of it like a rule in a game—if one person breaks it, the referee (the judge) uses the rule to make a fair decision.
@@ -398,7 +398,7 @@ Creating this field might be challenging if you do not have a legal background. 
 - `General legal discussion` (Not specific)
 - `In cases where an individual has entered into a contractual agreement, whether written or verbal, and subsequently claims that they were under duress at the time of signing, the court must carefully examine all surrounding circumstances, including but not limited to the financial, emotional, and physical state of the individual` (Too long - can be shortened to "A contract signed under duress is void")
 
-## 2W (Column W) Legal Principle 2
+## 2Z (Column Z) Legal Principle 2
 
 **Definition:**  
 The secondary legal principle derived from the case. A legal principle is a short rule or idea that judges use to decide cases. It comes from past court decisions and helps everyone understand what is fair and unfair under the law. Think of it like a rule in a game—if one person breaks it, the referee (the judge) uses the rule to make a fair decision.
@@ -423,7 +423,7 @@ Creating this field might be challenging if you do not have a legal background. 
 - `General legal discussion` (Not specific)
 - `In cases where an individual has entered into a contractual agreement, whether written or verbal, and subsequently claims that they were under duress at the time of signing, the court must carefully examine all surrounding circumstances, including but not limited to the financial, emotional, and physical state of the individual` (Too long - can be shortened to "A contract signed under duress is void")
 
-## 2V (Column V) Legal Principle 3
+## 2AA (Column AA) Legal Principle 3
 
 **Definition:**  
 The third legal principle derived from the case. A legal principle is a short rule or idea that judges use to decide cases. It comes from past court decisions and helps everyone understand what is fair and unfair under the law. Think of it like a rule in a game—if one person breaks it, the referee (the judge) uses the rule to make a fair decision.
