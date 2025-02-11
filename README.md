@@ -43,8 +43,6 @@ Click on the precedent (one judgment will have multiple precedents, you need to 
 
 ![How to get to a Judgment or Order](./digiscr-how-to-collect-data-from-precedent.png)
 
-![How to get to a Judgment or Order](./digiscr-how-to-get-to-find-precedent-case-laws.png)
-
 **Examples of Allowed Entries:**
 - `https://digiscr.sci.gov.in/view_judgment?id=MzcyMw==`
 - `https://digiscr.sci.gov.in/view_judgment?id=MTA0MDg=`
