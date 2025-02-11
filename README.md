@@ -284,12 +284,12 @@ The name(s) of the judge(s) who wrote the judgment. Usually it is done by a sing
 The year and volume in the format: YYYY/ Volume X or YYYY/ Supp. (X).
 
 **Examples of Allowed Entries:**
-- `1958/ Volume 1`
-- `2003/ Supp. (4)`
+- `1958/ Volume 1` (A space is there between the slash (/) and the (V)olume)
+- `2003/ Supp. (4)` (A space is there between the slash (/) and the (S)upp.)
 
 **Examples of Not Allowed Entries:**
-- `Year 2002, Volume 2"` (Not formatte correctly)
-- `1993/Supp. 3"` (Do not abbreviate)
+- `Year 2002, Volume 2"` (Not formatted correctly)
+- `1993/Supp. 3"` (Incorrect spacing, and no brackets)
 
 ---
 
