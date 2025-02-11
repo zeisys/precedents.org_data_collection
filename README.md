@@ -43,7 +43,7 @@ Scroll down till you see **Case Law Cited.**
 
 Click on the precedent (one judgment will have multiple precedents, you need to collect data for each one by one). The data you need in the field is the URL on your browsers address bar. This field is mandatory and cannot be left empty. If you cannot locate this field, you must omit this row, as the data will not be accepted.
 
-![How to get to a Judgment or Order](./digiscr-how-to-get-to-a-case.png)
+![How to get to a Judgment or Order](./digiscr-how-to-collect-data-from-precedent.png)
 
 **Examples of Allowed Entries:**
 - `https://digiscr.sci.gov.in/view_judgment?id=MzcyMw==`
