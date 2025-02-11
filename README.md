@@ -307,16 +307,44 @@ The full URL link to the case judgment on Indian Kanoon.
 ## 2T (Column T) - SCC Citation Number
 
 **Definition:**  
-The Supreme Court Case (SCC) citation must follow the format **(YEAR) VOLUME_NUMBER SCC PAGE_NUMBER**.
+The Supreme Court Case (SCC) citation must follow the format **(YEAR) VOLUME_NUMBER SCC PAGE_NUMBER**. Please note this field may not be possible to find as SCC may not have published the specific case. As long as you have the SCR Number, and Neutral Number, this is not a compulsory field. If it is available, make sure to get it. If not, leave this cell blank.
 
 **Examples of Allowed Entries:**
 - `(2004) 3 SCC 56`
-- `[1998] 5 SCC 1001`
+- `(1998) 5 SCC 1001`
 
 **Examples of Not Allowed Entries:**
 - `"Supreme Court 2004 Ruling"` (Not in correct format)
 - `"SCR Citation: Vol 3, 2004"` (Does not match required format)
+- `1998 3 SCC 199` (Brackets are not correctly used)
 
+## 2U (Column U) - AIR Citation Number
+
+**Definition:**  
+The All India Reporter (AIR) citation must follow the format **AIR YEAR SC PAGE_NUMBER**.
+
+**Examples of Allowed Entries:**
+- `AIR 1994 SC 853`
+- `AIR 2010 SC (Supp)`
+
+**Examples of Not Allowed Entries:**
+- `Supreme Court 2004 Ruling` (Not in correct format)
+- `"SCR Citation: Vol 3, 2004"` (Does not match required format)
+- `1998 AIR 99` (Do not match required format)
+
+## 2V (Column V) - JT Citation Number
+
+**Definition:**  
+The Judgment Today (JT) citation must follow the format **YEAR (VOLUME) JT PAGE_NUMBER**.
+
+**Examples of Allowed Entries:**
+- 2005 (11) JT 439
+- 2004 (2) Suppl. JT 601
+
+**Examples of Not Allowed Entries:**
+- `Judment Times 2004 Ruling` (Not in correct format)
+- `JT 11 2005-439"` (Does not match required format)
+- `1998 JT 11-99` (Do not match required format)
 
 
 ## 2U (Column U) Other Citation Numbers
