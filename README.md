@@ -342,7 +342,7 @@ The Judgment Today (JT) citation must follow the format **YEAR (VOLUME) JT PAGE_
 - `2004 (2) Suppl. JT 601`
 
 **Examples of Not Allowed Entries:**
-- `~~Judment Times 2004 Ruling~~` (Not in correct format)
+- `--Judment Times 2004 Ruling--` (Not in correct format)
 - `~~JT 11 2005-439~~` (Does not match required format)
 - `~~1998 JT 11-99~~` (Do not match required format)
 
