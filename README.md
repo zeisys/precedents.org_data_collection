@@ -31,7 +31,7 @@ Please download the [data sample](https://m.c) for examples of how to collect da
 ## 2A (Column A) - DigiSC Page URL
 
 **Definition:**  
-The official Supreme Court judgment page URL on DigiSC. Must be a full and valid URL linking directly to the judgment page. You may not be able to directly get this URL. You will have to click through a judgment that cites this precedent. Usually precedents are listed in a section called **Case Law Cited**
+The official Supreme Court judgment page URL on DigiSC. Must be a full and valid URL linking directly to the judgment page. You may not be able to directly get this URL. You will have to click through a judgment that cites this precedent. Usually precedents are listed in a section called **Case Law Cited.** This field is mandatory and cannot be left empty. If you cannot locate this field, you must omit this row, as the data will not be accepted.
 
 **Examples of Allowed Entries:**
 - `https://digiscr.sci.gov.in/view_judgment?id=MzcyMw==`
@@ -44,7 +44,7 @@ The official Supreme Court judgment page URL on DigiSC. Must be a full and valid
 ## 2B (Column B) - DigiSC PDF Link
 
 **Definition:**  
-Direct link to download the judgment PDF from DigiSC. Must be a complete and accessible URL. 
+Direct link to download the judgment PDF from DigiSC. Must be a complete and accessible URL. This field is mandatory and cannot be left empty. If you cannot locate this field, you must omit this row, as the data will not be accepted.
 
 **Examples of Allowed Entries:**
 - `https://digiscr.sci.gov.in/admin/judgement_file/judgement_pdf/2004/volume%203/Part%20I/2004_3_56-67%20%20%20_1703307014.pdf`
@@ -57,7 +57,7 @@ Direct link to download the judgment PDF from DigiSC. Must be a complete and acc
 ## 2C (Column C) - SCR Citation Number
 
 **Definition:**  
-The Supreme Court Reports (SCR) citation must follow the format **[YEAR] VOLUME_NUMBER S.C.R. PAGE_NUMBER**.
+The Supreme Court Reports (SCR) citation must follow the format **[YEAR] VOLUME_NUMBER S.C.R. PAGE_NUMBER**. This field is mandatory and cannot be left empty. If you cannot locate this field, you must omit this row, as the data will not be accepted.
 
 **Examples of Allowed Entries:**
 - `[2004] 3 S.C.R. 56`
@@ -71,7 +71,7 @@ The Supreme Court Reports (SCR) citation must follow the format **[YEAR] VOLUME_
 ## 2D (Column D) - Neutral Citation Number
 
 **Definition:**  
-The neutral citation (INSC) must follow the format **[YEAR] INSC NUMBER**.
+The neutral citation (INSC) must follow the format **[YEAR] INSC NUMBER**. This field is mandatory and cannot be left empty. If you cannot locate this field, you must omit this row, as the data will not be accepted.
 
 **Examples of Allowed Entries:**
 - `2004 INSC 181`
@@ -307,7 +307,7 @@ The full URL link to the case judgment on Indian Kanoon.
 ## 2T (Column T) - SCC Citation Number
 
 **Definition:**  
-The Supreme Court Case (SCC) citation must follow the format **(YEAR) VOLUME_NUMBER SCC PAGE_NUMBER**. Please note this field may not be possible to find as SCC may not have published the specific case. As long as you have the SCR Number, and Neutral Number, this is not a compulsory field. If it is available, make sure to get it. If not, leave this cell blank.
+The Supreme Court Case (SCC) citation must follow the format **(YEAR) VOLUME_NUMBER SCC PAGE_NUMBER**. Please note that this field may be impossible to find as SCC may not have published the specific case. This field is not compulsory as long as you have the SCR Citation and Neutral Citation numbers. If it is available, make sure to get it. If not, leave this cell blank.
 
 **Examples of Allowed Entries:**
 - `(2004) 3 SCC 56`
@@ -321,7 +321,7 @@ The Supreme Court Case (SCC) citation must follow the format **(YEAR) VOLUME_NUM
 ## 2U (Column U) - AIR Citation Number
 
 **Definition:**  
-The All India Reporter (AIR) citation must follow the format **AIR YEAR SC PAGE_NUMBER**.
+The All India Reporter (AIR) citation must follow the format **AIR YEAR SC PAGE_NUMBER**. Please note that this field may be impossible to find as SCC may not have published the specific case. This field is not compulsory as long as you have the SCR Citation and Neutral Citation numbers. If it is available, make sure to get it. If not, leave this cell blank.
 
 **Examples of Allowed Entries:**
 - `AIR 1994 SC 853`
@@ -335,7 +335,21 @@ The All India Reporter (AIR) citation must follow the format **AIR YEAR SC PAGE_
 ## 2V (Column V) - JT Citation Number
 
 **Definition:**  
-The Judgment Today (JT) citation must follow the format **YEAR (VOLUME) JT PAGE_NUMBER**.
+The Judgment Today (JT) citation must follow the format **YEAR (VOLUME) JT PAGE_NUMBER**. Please note that this field may be impossible to find as SCC may not have published the specific case. This field is not compulsory as long as you have the SCR Citation and Neutral Citation numbers. If it is available, make sure to get it. If not, leave this cell blank.
+
+**Examples of Allowed Entries:**
+- `2005 (11) JT 439`
+- `2004 (2) Suppl. JT 601`
+
+**Examples of Not Allowed Entries:**
+- `~~Judment Times 2004 Ruling~~` (Not in correct format)
+- `~~JT 11 2005-439~~` (Does not match required format)
+- `~~1998 JT 11-99~~` (Do not match required format)
+
+## 2W (Column W) - SCALE Citation Number
+
+**Definition:**  
+The Supreme Court Alamanac (SCALE) citation must follow the format **YEAR (VOLUME) JT PAGE_NUMBER**. Please note that this field may be impossible to find as SCC may not have published the specific case. This field is not compulsory as long as you have the SCR Citation and Neutral Citation numbers. If it is available, make sure to get it. If not, leave this cell blank.
 
 **Examples of Allowed Entries:**
 - 2005 (11) JT 439
