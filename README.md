@@ -1,4 +1,4 @@
-# 1 PRECEDENT DATA
+# 1 DATA COLLECTION WORK
 
 ## 1.1 Objective
 
@@ -12,13 +12,13 @@ Browse through each judgment/order, and identify legal precedents. Remember, we 
 
 Look for the following data elements, for each precedent, and format it as the columns of a spreadsheet. Deliver the spreadsheet as an XLSX file or a CSV file.
 
-## Accuracy
+## 1.4 Accuracy of Data
 
 The data you collect must be ninety seven percent (97%) accurate. If you deliver data with 31 columns, only 2 columns can be inaccurate. More than this, your deliverable will be rejected (without payment). 
 
 You must check the data manually. Please note that you can use AI tools to collect data, but most of them are notorious for delivering false data. So, be sure to double-check the data that AI tools give you. Using AI tools will CANNOT be an excuse for providing inaccurate data.
 
-## Completeness
+## 1.5 Completeness of Data
 
 Your data must be at least 85% complete. If you deliver a row of 31 columns, you must have at least 26 correct values collected. If there are less than 26 values, your data will be rejected (without payment). 
 
@@ -28,7 +28,7 @@ Please download the [data sample](https://m.c) for examples of how to collect da
 
 # 2 DATA NEEDED
 
-## 2A (Column A) DigiSC Page URL
+## 2A (Column A) **DigiSC Page URL**
 
 **Definition:**  
 The official Supreme Court judgment page URL on DigiSC. Must be a full and valid URL linking directly to the judgment page. You may not be able to directly get this URL. You will have to click through a judgment that cites this precedent. Usually precedents are listed in a section called **Case Law Cited**
