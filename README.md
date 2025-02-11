@@ -117,7 +117,7 @@ The category of the case. Use standard legal case types recognized in the Indian
 ## 2G (Column G) - Case Number
 
 **Definition:**  
-The unique identifier for the case. Must follow the format **X/YYYY**.
+The unique identifier for the case. Must follow the format **X/YYYY**. If there are more than one case numbers, seperate them with a semi-colon.
 
 **Examples of Allowed Entries:**
 - `1650/2004`
@@ -168,10 +168,10 @@ List all laws and legal sections referenced in the judgment. Use the format: **T
 - `"Constitution of India"` (Missing article number)
 - `"Various criminal laws applied"` (Too vague)
 
-## 2K (Column K) - First Party Classification
+## 2K (Column K) - Petitioner Type
 
 **Definition:**  
-The role of the first party in the case. This could be **Appellant, Petitioner, Plaintiff**, or Other.
+The role of the petitioner (first party) in the case. This could be **Appellant, Petitioner, Plaintiff**, or Other.
 
 **Examples of Allowed Entries:**
 - `Appellant`
@@ -185,10 +185,10 @@ The role of the first party in the case. This could be **Appellant, Petitioner, 
 
 ---
 
-## 2L (Column L) - First Party Full Name
+## 2L (Column L) - Petitioner Full Name
 
 **Definition:**  
-Full name of the first party. If initials are present, remove periods (full stops) between letters, without abbreviations like "& Ors." Replace it with "and others."
+Full name of the petitioner (first party). If initials are present, remove periods (full stops) between letters, without abbreviations like "& Ors." Replace it with "and others."
 
 **Examples of Allowed Entries:**
 - `Ramesh Kumar Sharma`
@@ -204,10 +204,10 @@ Full name of the first party. If initials are present, remove periods (full stop
 
 ---
 
-## 2M (Column M) - Second Party Classification
+## 2M (Column M) - Responsdent Type
 
 **Definition:**  
-The role of the second party in the case. This could be **Respondent, Defendant, Opponent**, or another litigant classification.
+The role of the respondent (second party) in the case. This could be **Respondent, Defendant, Opponent**, or another litigant classification.
 
 **Examples of Allowed Entries:**
 - `Appellant`
@@ -220,11 +220,10 @@ The role of the second party in the case. This could be **Respondent, Defendant,
 - `"Opposing side"` (Not a legal classification)
 
 
-## 2N (Column N) - Second Party Full Name
+## 2N (Column N) - Respondent Full Name
 
 **Definition:**  
-Full name of the second party. If only initials are present, remove periods (full stops) between letters, without abbreviations like "& Ors." Replace it with "and others."
-
+Full name of the respondent (second party). If only initials are present, remove periods (full stops) between letters, without abbreviations like "& Ors." Replace it with "and others."
 
 **Examples of Allowed Entries:**
 - `Union of India`
@@ -282,7 +281,7 @@ The name(s) of the judge(s) who wrote the judgment. Usually it is done by a sing
 ## 2R (Column S) - Year/Volume
 
 **Definition:**  
-The year and volume in the format YYYY/ Volume X or YYYY/ Supp. (X).
+The year and volume in the format: YYYY/ Volume X or YYYY/ Supp. (X).
 
 **Examples of Allowed Entries:**
 - `1958/ Volume 1`
