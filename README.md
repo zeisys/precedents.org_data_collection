@@ -177,6 +177,7 @@ List all laws and legal sections referenced in the judgment. Use the format: **T
 - `"IPC Sec. 302"` (Abbreviation not allowed)
 - `"Constitution of India"` (Missing article number)
 - `"Various criminal laws applied"` (Too vague)
+- `The Constitution of India, The Indian Evidence Act, 1872` (Not separated with semicolon)
 
 ## 2K (Column K) - Petitioner Type
 
