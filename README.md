@@ -28,7 +28,7 @@ Please download the [data sample](https://m.c) for examples of how to collect da
 
 # 2 DATA NEEDED
 
-## 2A (Column A) **DigiSC Page URL**
+## 2A (Column A) - DigiSC Page URL
 
 **Definition:**  
 The official Supreme Court judgment page URL on DigiSC. Must be a full and valid URL linking directly to the judgment page. You may not be able to directly get this URL. You will have to click through a judgment that cites this precedent. Usually precedents are listed in a section called **Case Law Cited**
@@ -41,7 +41,7 @@ The official Supreme Court judgment page URL on DigiSC. Must be a full and valid
 - `"SC Judgment 2004 link"` (Missing URL)
 - `"www.supremecourt.in/judgment"` (Incorrect format, must be from DigiSC)
 
-## 2B (Column B) DigiSC PDF Link
+## 2B (Column B) - DigiSC PDF Link
 
 **Definition:**  
 Direct link to download the judgment PDF from DigiSC. Must be a complete and accessible URL. 
@@ -54,7 +54,7 @@ Direct link to download the judgment PDF from DigiSC. Must be a complete and acc
 - `"Download PDF here"` (No direct URL)
 - `"supremecourt.in/pdf"` (Incorrect domain, must be from DigiSC)
 
-## 2C (Column C) SCR Citation
+## 2C (Column C) - SCR Citation Number
 
 **Definition:**  
 The Supreme Court Reports (SCR) citation must follow the format **[YEAR] VOLUME_NUMBER S.C.R. PAGE_NUMBER**.
@@ -67,7 +67,7 @@ The Supreme Court Reports (SCR) citation must follow the format **[YEAR] VOLUME_
 - `"Supreme Court 2004 Ruling"` (Not in correct format)
 - `"SCR Citation: Vol 3, 2004"` (Does not match required format)
 
-## 2D (Column D) Neutral Citation
+## 2D (Column D) - Neutral Citation Number
 
 **Definition:**  
 The neutral citation (INSC) must follow the format **[YEAR] INSC NUMBER**.
@@ -80,7 +80,7 @@ The neutral citation (INSC) must follow the format **[YEAR] INSC NUMBER**.
 - `"2004 SC Citation"` (Incorrect format)
 - `"INSC Case 344 of 1993"` (Not in the correct format)
 
-## 2E (Column E) Date of Judgment
+## 2E (Column E) - Date of Judgment
 
 **Definition:**  
 The date when the judgment was issued. It must be in **ISO 8601 format (YYYY-MM-DD)**, plus the letter T at the end. Do not miss this T as the excel will confuse the value.
@@ -94,7 +94,7 @@ The date when the judgment was issued. It must be in **ISO 8601 format (YYYY-MM-
 - `"17-03-2004"` (Not ISO format)
 - `1993-10-27` (No T at the end)
 
-## 2F (Column F) Case Type
+## 2F (Column F) - Case Type
 
 **Definition:**  
 The category of the case. Use standard legal case types recognized in the Indian legal system. Please avoid abbreviations or shortening phrases.
@@ -109,7 +109,7 @@ The category of the case. Use standard legal case types recognized in the Indian
 - `"Appeal"` (Too vague)
 - `"Case Type: Civil"` (Incorrect format)
 
-## 2G (Column G) Case Number
+## 2G (Column G) - Case Number
 
 **Definition:**  
 The unique identifier for the case. Must follow the format **X/YYYY**.
@@ -122,7 +122,7 @@ The unique identifier for the case. Must follow the format **X/YYYY**.
 - `"Case 1650 2004"` (Incorrect format)
 - `"1650-2004"` (Wrong separator)
 
-## 2H (Column H) Disposal Nature
+## 2H (Column H) - Disposal Nature
 
 **Definition:**  
 The final outcome of the case, indicating whether the appeal was allowed, dismissed, or otherwise disposed of.
@@ -135,7 +135,7 @@ The final outcome of the case, indicating whether the appeal was allowed, dismis
 - `"Judgment Issued"` (Not specific enough)
 - `"Case Completed"` (Not a legal term)
 
-## 2I (Column I) Order/Judgment
+## 2I (Column I) - Order/Judgment
 
 **Definition:**  
 Specifies whether the document is an "Order" or a "Judgment."
@@ -148,7 +148,7 @@ Specifies whether the document is an "Order" or a "Judgment."
 - `"Verdict"` (Not a standard legal term)
 - 
 
-## 2J (Column J) Laws Referenced
+## 2J (Column J) - Laws Referenced
 
 **Definition:**  
 List all laws and legal sections referenced in the judgment. Use the format: **The Law Name, Year**. If multiple laws are cited, separate them with semicolons.
@@ -163,9 +163,7 @@ List all laws and legal sections referenced in the judgment. Use the format: **T
 - `"Constitution of India"` (Missing article number)
 - `"Various criminal laws applied"` (Too vague)
 
----
-
-## 2K (Column K) First Party Classification
+## 2K (Column K) - First Party Classification
 
 **Definition:**  
 The role of the first party in the case. This could be **Appellant, Petitioner, Plaintiff**, or Other.
@@ -182,10 +180,10 @@ The role of the first party in the case. This could be **Appellant, Petitioner, 
 
 ---
 
-## 2L (Column L) First Party Full Name
+## 2L (Column L) - First Party Full Name
 
 **Definition:**  
-Full name of the first party. If only initials are present, remove periods (full stops) between letters, without abbreviations like "& Ors." Replace it with "and others."
+Full name of the first party. If initials are present, remove periods (full stops) between letters, without abbreviations like "& Ors." Replace it with "and others."
 
 **Examples of Allowed Entries:**
 - `Ramesh Kumar Sharma`
@@ -197,10 +195,11 @@ Full name of the first party. If only initials are present, remove periods (full
 - `"R.K. Sharma"` (Should not use initials with periods)
 - `"Maharashtra & Ors."` (Use "and others" instead)
 - `XYZ (P) Ltd.` (Abbreviation is not clear if P stands for Public or Private. Do not abbreviate)
+- `State of UP` (UP should be expanded to Uttar Pradesh)
 
 ---
 
-## 2M (Column M) Second Party Classification
+## 2M (Column M) - Second Party Classification
 
 **Definition:**  
 The role of the second party in the case. This could be **Respondent, Defendant, Opponent**, or another litigant classification.
@@ -215,9 +214,8 @@ The role of the second party in the case. This could be **Respondent, Defendant,
 - `"Second Party"` (Not specific enough)
 - `"Opposing side"` (Not a legal classification)
 
----
 
-## 2N (Column N) Second Party Full Name
+## 2N (Column N) - Second Party Full Name
 
 **Definition:**  
 Full name of the second party. If only initials are present, remove periods (full stops) between letters, without abbreviations like "& Ors." Replace it with "and others."
@@ -234,7 +232,7 @@ Full name of the second party. If only initials are present, remove periods (ful
 
 ---
 
-## 2O (Column O) Court Name
+## 2O (Column O) - Court Name
 
 **Definition:**  
 The name of the court where the judgment was delivered. Since this dataset only includes Supreme Court cases, always enter **"Supreme Court."**
@@ -244,14 +242,12 @@ The name of the court where the judgment was delivered. Since this dataset only 
 
 **Examples of Not Allowed Entries:**
 - `"Delhi High Court"` (Wrong court)
-- `"India SC"` (Must be in standard format)
+- `"India SC"` (No abbreviation allowed)
 
----
-
-## 2P (Column P) Judges on Bench
+## 2P (Column P) - Judges on Bench
 
 **Definition:**  
-List of judges involved in the case, separated by semicolons. If initials are present, do not include periods.
+List of judges involved in the case, separated by semicolons. If initials are present, remove periods (full stops) between letters.
 
 **Examples of Allowed Entries:**
 - `Ranjan Gogoi; Dipak Misra`
@@ -266,7 +262,7 @@ List of judges involved in the case, separated by semicolons. If initials are pr
 ## 2Q (Column Q) Judgment Author
 
 **Definition:**  
-The name(s) of the judge(s) who wrote the judgment.
+The name(s) of the judge(s) who wrote the judgment. Usually it is done by a single judge, but in case there are multiple names, separated by semicolons. If initials are present, remove periods (full stops) between letters
 
 **Examples of Allowed Entries:**
 - `Dipak Misra`
@@ -278,23 +274,22 @@ The name(s) of the judge(s) who wrote the judgment.
 
 ---
 
-## 2R (Column R) Judgment in Favor Of
+## 2R (Column S) - Year/Volume
 
 **Definition:**  
-Indicates which party won the case. It must be either **Appellant, Petitioner, Plaintiff, Respondent, Defendant**, or "Other Party."
+The year and volume in the format YYYY/X.
 
 **Examples of Allowed Entries:**
-- `Appellant`
-- `Respondent`
-- `Other Party`
+- `1993/4`
+- `1993/Supplement 3`
 
 **Examples of Not Allowed Entries:**
-- `"Winner"` (Not a legal classification)
-- `"Court Ruling"` (Not specific enough)
+- `Year 2002, Volume 2"` (Not formatte correctly)
+- `1993/Supp. 3"` (Do not abbreviate)
 
 ---
 
-## 2S (Column S) Indian Kanoon Link
+## 2S (Column S) - Indian Kanoon Link
 
 **Definition:**  
 The full URL link to the case judgment on Indian Kanoon.
@@ -309,28 +304,13 @@ The full URL link to the case judgment on Indian Kanoon.
 
 ---
 
-## 2T (Column T) CaseMine Link
-
-**Definition:**  
-The full URL link to the case judgment on CaseMine.
-
-**Examples of Allowed Entries:**
-- `https://www.casemine.com/judgment/in/123456`
-- `https://www.casemine.com/judgment/in/abcdef`
-
-**Examples of Not Allowed Entries:**
-- `"Find on CaseMine"` (Must provide a direct URL)
-- `"casemine.com"` (Needs full case-specific URL)
-
----
-
 ## 2U (Column U) Other Citation Numbers
 
 **Definition:**  
 Citations from **non-standard sources** (not SCC, SCR, INSC, AIR, JT, or SCALE). Use the exact format of the source.
 
 **Examples of Allowed Entries:**
-- `AIR 2004 SC 200`
+- `AIR 2004 Del 200`
 - `MANU/SC/1234/2001`
 
 **Examples of Not Allowed Entries:**
