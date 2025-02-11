@@ -24,7 +24,7 @@ You must check the data manually. Please note that you can use AI tools to colle
 
 Your data must be at least 85% complete. If you deliver a row of 31 columns, you must have at least 26 correct values collected. If there are less than 26 values, your data will be rejected (without payment). 
 
-Please download the [data sample](https://m.c) for examples of how to collect data. But please remember that the data sample has errors. That does not mean that your deliverable can have errors.
+Please download the [data sample](./sample.csv) for examples of how to collect data. But please remember that the data sample has errors. That does not mean that your deliverable can have errors.
 
 ---
 
