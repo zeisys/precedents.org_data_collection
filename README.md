@@ -18,7 +18,7 @@ Look for the following data elements, for each precedent, and format it as the c
 
 The data you collect must be ninety seven percent (97%) accurate. If you deliver data with 31 columns, only 2 columns can be inaccurate. More than this, your deliverable will be rejected (without payment). 
 
-You must check the data manually. Please note that you can use AI tools to collect data, but most of them are notorious for delivering false data. So, be sure to double-check the data that AI tools give you. Using AI tools will CANNOT be an excuse for providing inaccurate data.
+You must check the data manually. Please note that you can use AI tools to collect data, but most of them are notorious for delivering false data. So, be sure to double-check the data that AI tools give you. Using AI tools CANNOT be an excuse for providing inaccurate data.
 
 ## 1.5 Completeness of Data
 
