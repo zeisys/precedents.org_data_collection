@@ -57,7 +57,11 @@ Direct link to download the judgment PDF from DigiSC. Must be a complete and acc
 ## 2C (Column C) - SCR Citation Number
 
 **Definition:**  
-The Supreme Court Reports (SCR) citation must follow the format **[YEAR] VOLUME_NUMBER S.C.R. PAGE_NUMBER**. This field is mandatory and cannot be left empty. If you cannot locate this field, you must omit this row, as the data will not be accepted.
+The Supreme Court Reports (SCR) citation must follow one of these formats:
+- `[YEAR] VOLUME_NUMBER S.C.R. PAGE_NUMBER (For standard citations)`
+- `[YEAR] Supp. (VOLUME_NUMBER) S.C.R. PAGE_NUMBER (For supplements)`
+
+This field is mandatory and cannot be left empty. If you cannot locate this field, you must omit this row, as the data will not be accepted.
 
 **Examples of Allowed Entries:**
 - `[2004] 3 S.C.R. 56`
@@ -278,11 +282,11 @@ The name(s) of the judge(s) who wrote the judgment. Usually it is done by a sing
 ## 2R (Column S) - Year/Volume
 
 **Definition:**  
-The year and volume in the format YYYY/X.
+The year and volume in the format YYYY/ Volume X or YYYY/ Supp. (X).
 
 **Examples of Allowed Entries:**
-- `1993/4`
-- `1993/Supplement 3`
+- `1958/ Volume 1`
+- `2003/ Supp. (4)`
 
 **Examples of Not Allowed Entries:**
 - `Year 2002, Volume 2"` (Not formatte correctly)
