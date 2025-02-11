@@ -8,8 +8,6 @@ Research judgments or verdicts from the Supreme Court of India for legal precede
 
 Browse through each judgment/order, and identify legal precedents. Remember, we are not looking for data regarding the judgment/order, but only for the precedents in references.
 
-![How to get to a HTML view](./digiscr-how-to-get-to-a-case.png)
-
 ## 1.3 Deliverable
 
 Look for the following data elements, for each precedent, and format it as the columns of a spreadsheet. Deliver the spreadsheet as an XLSX file or a CSV file.
@@ -34,6 +32,8 @@ Please download the [data sample](./sample.csv) for examples of how to collect d
 
 **Definition:**  
 The official Supreme Court judgment page. You can click on the HTML view of a page. Scroll down till you see **Case Law Cited.** 
+
+![How to get to a HTML view](./digiscr-how-to-get-to-a-case.png)
 
 ![How to get to a Judgment or Order](./digiscr-how-to-get-to-HTML-view-of-judgment.png)
 
