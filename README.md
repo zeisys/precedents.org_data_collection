@@ -291,8 +291,6 @@ The year and volume in the format: YYYY/ Volume X or YYYY/ Supp. (X).
 - `Year 2002, Volume 2"` (Not formatted correctly)
 - `1993/Supp. 3"` (Incorrect spacing, and no brackets)
 
----
-
 ## 2S (Column S) - Indian Kanoon Link
 
 **Definition:**  
@@ -303,10 +301,9 @@ The full URL link to the case judgment on Indian Kanoon.
 - `https://indiankanoon.org/doc/abcdef/`
 
 **Examples of Not Allowed Entries:**
-- `"Find it on Kanoon"` (Must provide direct URL)
-- `"https://google.com"` (Wrong website)
+- ~~Find it on Kanoon~~ (Must provide direct URL)
+- ~~https://google.com~~ (Wrong website)
 
----
 ## 2T (Column T) - SCC Citation Number
 
 **Definition:**  
@@ -317,9 +314,9 @@ The Supreme Court Case (SCC) citation must follow the format **(YEAR) VOLUME_NUM
 - `(1998) 5 SCC 1001`
 
 **Examples of Not Allowed Entries:**
-- `"Supreme Court 2004 Ruling"` (Not in correct format)
-- `"SCR Citation: Vol 3, 2004"` (Does not match required format)
-- `1998 3 SCC 199` (Brackets are not correctly used)
+- ~~Supreme Court 2004 Ruling~~ (Not in correct format)
+- ~~SCR Citation: Vol 3, 2004~~ (Does not match required format)
+- ~~1998 3 SCC 199~~ (Brackets are not correctly used)
 
 ## 2U (Column U) - AIR Citation Number
 
@@ -331,9 +328,9 @@ The All India Reporter (AIR) citation must follow the format **AIR YEAR SC PAGE_
 - `AIR 2010 SC (Supp)`
 
 **Examples of Not Allowed Entries:**
-- `Supreme Court 2004 Ruling` (Not in correct format)
-- `"SCR Citation: Vol 3, 2004"` (Does not match required format)
-- `1998 AIR 99` (Do not match required format)
+- ~~Supreme Court 2004 Ruling~~ (Not in correct format)
+- ~~SCR Citation: Vol 3, 2004~~ (Does not match required format)
+- ~~1998 AIR 99~~ (Do not match required format)
 
 ## 2V (Column V) - JT Citation Number
 
@@ -359,9 +356,9 @@ The Supreme Court Alamanac (SCALE) citation must follow the format **YEAR (VOLUM
 - 2004 (20) SCALE 1004
 
 **Examples of Not Allowed Entries:**
-- `SCALE 2004-11-555` (Does not match required format)
-- `SC Alamanac 11 2005-439"` (Does not match required format)
-- `1998 SCA 11-99` (Does not match required format)
+- ~~SCALE 2004-11-555~~ (Does not match required format)
+- ~~SC Alamanac 11 2005-439~~ (Does not match required format)
+- ~~1998 SCA 11-99~~ (Does not match required format)
 
 ## 2X (Column X) Other Citation Numbers
 
@@ -373,8 +370,8 @@ Citations from **non-standard sources** (not SCC, SCR, INSC, AIR, JT, or SCALE).
 - `MANU/SC/1234/2001`
 
 **Examples of Not Allowed Entries:**
-- `"Other citations available"` (Must list exact citation)
-- `"SC Citation"` (Not specific)
+- ~~Other citations available~~ (Must list exact citation)
+- ~~SC Citation~~ (Not specific)
 
 ## 2Y (Column Y) Legal Principle 1
 
@@ -397,9 +394,9 @@ Creating this field might be challenging if you do not have a legal background. 
 - `Silence is misrepresentation if there is a duty to disclose`
 
 **Examples of Not Allowed Entries:**
-- `The case was about fraud` (Too vague)
-- `General legal discussion` (Not specific)
-- `In cases where an individual has entered into a contractual agreement, whether written or verbal, and subsequently claims that they were under duress at the time of signing, the court must carefully examine all surrounding circumstances, including but not limited to the financial, emotional, and physical state of the individual` (Too long - can be shortened to "A contract signed under duress is void")
+- ~~The case was about fraud~~ (Too vague)
+- ~~General legal discussion~~ (Not specific)
+- ~~In cases where an individual has entered into a contractual agreement, whether written or verbal, and subsequently claims that they were under duress at the time of signing, the court must carefully examine all surrounding circumstances, including but not limited to the financial, emotional, and physical state of the individual~~ (Too long - can be shortened to "A contract signed under duress is void")
 
 ## 2Z (Column Z) Legal Principle 2
 
@@ -422,9 +419,9 @@ Creating this field might be challenging if you do not have a legal background. 
 - `Silence is misrepresentation if there is a duty to disclose`
 
 **Examples of Not Allowed Entries:**
-- `The case was about fraud` (Too vague)
-- `General legal discussion` (Not specific)
-- `In cases where an individual has entered into a contractual agreement, whether written or verbal, and subsequently claims that they were under duress at the time of signing, the court must carefully examine all surrounding circumstances, including but not limited to the financial, emotional, and physical state of the individual` (Too long - can be shortened to "A contract signed under duress is void")
+- ~~The case was about fraud~~ (Too vague)
+- ~~General legal discussion~~ (Not specific)
+- ~~In cases where an individual has entered into a contractual agreement, whether written or verbal, and subsequently claims that they were under duress at the time of signing, the court must carefully examine all surrounding circumstances, including but not limited to the financial, emotional, and physical state of the individual~~ (Too long - can be shortened to "A contract signed under duress is void")
 
 ## 2AA (Column AA) Legal Principle 3
 
@@ -447,6 +444,6 @@ Creating this field might be challenging if you do not have a legal background. 
 - `Silence is misrepresentation if there is a duty to disclose`
 
 **Examples of Not Allowed Entries:**
-- `The case was about fraud` (Too vague)
-- `General legal discussion` (Not specific)
-- `In cases where an individual has entered into a contractual agreement, whether written or verbal, and subsequently claims that they were under duress at the time of signing, the court must carefully examine all surrounding circumstances, including but not limited to the financial, emotional, and physical state of the individual` (Too long - can be shortened to "A contract signed under duress is void")
+- ~~The case was about fraud~~ (Too vague)
+- ~~General legal discussion~~ (Not specific)
+- ~~In cases where an individual has entered into a contractual agreement, whether written or verbal, and subsequently claims that they were under duress at the time of signing, the court must carefully examine all surrounding circumstances, including but not limited to the financial, emotional, and physical state of the individual~~ (Too long - can be shortened to "A contract signed under duress is void")
