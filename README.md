@@ -1,4 +1,4 @@
-# 1 DATA COLLECTION WORK
+# 1 DATA COLLECTION WORK - SC PRECEDENTS
 
 ## 1.1 Objective
 
@@ -26,7 +26,7 @@ Please download the [data sample](https://m.c) for examples of how to collect da
 
 ---
 
-# 2 DATA NEEDED
+# 2 DATA FIELDS NEEDED - SC PRECEDENTS
 
 ## 2A (Column A) - DigiSC Page URL
 
