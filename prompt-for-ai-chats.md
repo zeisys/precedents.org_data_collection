@@ -1,4 +1,4 @@
-Extract structured case law data for the Supreme Court of India judgment available at [Insert Indian Kanoon URL]. Ensure accuracy and completeness with the following fields.:
+Extract structured case law data for the Supreme Court of India judgment available at [Insert Supreme Court of India, Digital Supreme Court Report Link]. Ensure accuracy and completeness with the following fields.:
 
 A. DigiSC Page URL  
 B. DigiSC PDF Link  
