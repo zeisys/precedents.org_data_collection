@@ -461,3 +461,9 @@ Creating this field might be challenging if you do not have a legal background. 
 - `The case was about fraud` (Too vague)
 - `General legal discussion` (Not specific)
 - `In cases where an individual has entered into a contractual agreement, whether written or verbal, and subsequently claims that they were under duress at the time of signing, the court must carefully examine all surrounding circumstances, including but not limited to the financial, emotional, and physical state of the individual` (Too long - can be shortened to "A contract signed under duress is void")
+
+# 3 USING AI
+
+You are allowed to use AI for your data collection. But that does not mean you can submit errors. Even if AI is doing the data collection, once it delivers the data, you are responsible for double checking each field manually. 
+
+The following is a simple [prompt](./prompt-ai-chats.md) that will get you the data from AI Chats (OpenAI ChatGPT, Google DeepMind etc). But note, the data returned has about 50% incorrect values. You will need to correct these manually. 
