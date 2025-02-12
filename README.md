@@ -466,4 +466,4 @@ Creating this field might be challenging if you do not have a legal background. 
 
 You are allowed to use AI for your data collection. But that does not mean you can submit errors. Even if AI is doing the data collection, once it delivers the data, you are responsible for double checking each field manually. 
 
-The following is a simple [prompt](./prompt-ai-chats.md) that will get you the data from AI Chats (OpenAI ChatGPT, Google DeepMind etc). But note, the data returned has about 50% incorrect values. You will need to correct these manually. 
+The following is a simple [prompt](./prompt-for-ai-chats.md) that will get you the data from AI Chats (OpenAI ChatGPT, Google DeepMind etc). But note, the data returned has about 50% incorrect values. You will need to correct these manually. 
